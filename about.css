@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* General Styles */
+:root{
+    --font-family: "Ubuntu", serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: #9796f0;
+    background: linear-gradient(to right, #fbc7d4, #9796f0);
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0); */
+    }
+    nav{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(50px);
+    padding: 20px 70px;
+    z-index: 2;
+  }
+  
+
+
+  .logo img{
+    border-radius: 100%;
+    margin-top: -10px;
+    
+  }
+  
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+  .list a{
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 0px 20px;
+    color: black;
+    z-index: 2;
+  }
+  
+  .nav-button{
+    margin-top: 0px;
+  }
+  
+  .nav-button button{
+    padding: 7px 20px;
+    background-color: pink;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+  }
+
+main {
+    padding-top: 80px;
+}
+
+section {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+section p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-content {
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color:rgb(137, 52, 2) ;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
